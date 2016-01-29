@@ -49,7 +49,7 @@ links:
     url: http://www.example3.com/
 
 # Static files
-js: /js
-css: /css
+js: https://dn-cielpark.qbox.me/js
+css: https://dn-cielpark.qbox.me/css
 
 version: 0.0.0
