@@ -13,7 +13,7 @@ duoshuo: imciel
 baidu_analytics: 7d99c6e5e5cfb8cdef57d7cbf7b1010a
 
 google_analytics: UA-51259806-3
-shareto: true ## If you want to use the share button please set the value to true
+shareto: false ## If you want to use the share button please set the value to true
 
 menu:
   - page: home
