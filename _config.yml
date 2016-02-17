@@ -1,7 +1,6 @@
 fancybox: true ## If you want to use fancybox please set the value to true
-
-disqus: ## Your disqus_shortname, e.g. haomwei
-
+duoshuo: ## Your duoshuo_shortname, e.g. username
+disqus: ## Your disqus_shortname, e.g. username
 google_search: true ## Use Google search, true/false
 
 baidu_search: ## Use Baidu search, true/false
@@ -15,23 +14,24 @@ duoshuo: imciel
 baidu_analytics: 7d99c6e5e5cfb8cdef57d7cbf7b1010a
 
 google_analytics: UA-51259806-3
+shareto: true ## If you want to use the share button please set the value to true
 
 menu:
   - page: home
     directory: .
-    icon: icon-home
+    icon: fa-home
   - page: archive
     directory: archives/
-    icon: icon-archive
+    icon: fa-archive
   - page: guestbook
     directory: guestbook/
     icon: icon-guestbook
   - page: about
     directory: about/
-    icon: icon-about
+    icon: fa-user
   - page: rss
     directory: atom.xml
-    icon: icon-rss
+    icon: fa-rss
 
 widgets: ## Six widgets in sidebar provided: search, category, tag, recent_posts, rencent_comments and links.
   - search

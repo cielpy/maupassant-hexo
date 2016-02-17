@@ -27,29 +27,30 @@ Default config:
 
 ```
 fancybox: true ## If you want to use fancybox please set the value to true
-duoshuo: ## Your duoshuo_shortname, e.g. haomwei
-disqus: ## Your disqus_shortname, e.g. haomwei
+duoshuo: ## Your duoshuo_shortname, e.g. username
+disqus: ## Your disqus_shortname, e.g. username
 google_search: true ## Use Google search, true/false
 baidu_search: ## Use Baidu search, true/false
 swiftype: ## Your swiftype_key, e.g. m7b11ZrsT8Me7gzApciT
 tinysou: ## Your tinysou_key, e.g. 4ac092ad8d749fdc6293
 google_analytics: ## Your Google Analytics tracking id, e.g. UA-42425684-2
 baidu_analytics: ## Your Baidu Analytics tracking id, e.g. 8006843039519956000
+shareto: true ## If you want to use the share button please set the value to true
 
 menu:
   - page: home
     directory: .
-    icon: icon-home
+    icon: fa-home
   - page: archive
     directory: archives/
-    icon: icon-archive
+    icon: fa-archive
   - page: about
     directory: about/
-    icon: icon-about
+    icon: fa-user
   - page: rss
     directory: atom.xml
-    icon: icon-rss
-    
+    icon: fa-rss
+
 widgets: ## Six widgets in sidebar provided: search, category, tag, recent_posts, rencent_comments and links.
   - search
   - category
@@ -57,7 +58,7 @@ widgets: ## Six widgets in sidebar provided: search, category, tag, recent_posts
   - recent_posts
   - recent_comments
   - links
-  
+
 links:
   - title: site-name1
     url: http://www.example1.com/
@@ -65,7 +66,7 @@ links:
     url: http://www.example2.com/
   - title: site-name3
     url: http://www.example3.com/
-    
+
 # Static files
 js: js
 css: css
@@ -82,7 +83,8 @@ version: 0.0.0
 - tinysou - [Tiny Search](http://tinysou.com) key
 - google_analytics - [Google Analytics](https://www.google.com/analytics/) tracking id
 - baidu_analytics - [Baidu Analytics](http://tongji.baidu.com) tracking id
-- menu - Customize your menu of pages here, just follow the format of existied items. Don't forget to create corresponding folders inlcuding `index.md` in `source` folder to ensure the pages will correctly display. [IcoMoon](https://icomoon.io) icon fonts have been integrated, and you can choose other icons you like [here](https://icomoon.io/app/#/select) and use them according to the  [instruction](https://icomoon.io/#docs)
+- shareto - Enable share button
+- menu - Customize your menu of pages here, just follow the format of existied items. Don't forget to create corresponding folders inlcuding `index.md` in `source` folder to ensure the pages will correctly display. [FontAwesome](http://fontawesome.io) icon fonts have been integrated, and you can choose other icons you like [here](http://fontawesome.io/icons/) and use them according to the instruction
 - widgets - Choose and arrange the widgets in sidebar here
 - links - Edit your blogroll here
 - Static files - Static files directory, for convenience of CDN usage
