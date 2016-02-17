@@ -24,7 +24,7 @@ menu:
     icon: fa-archive
   - page: guestbook
     directory: guestbook/
-    icon: icon-guestbook
+    icon: fa-comments
   - page: about
     directory: about/
     icon: fa-user
