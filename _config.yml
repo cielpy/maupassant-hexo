@@ -20,6 +20,9 @@ menu:
   - page: guestbook
     directory: guestbook/
     icon: fa-comments
+  - page: WIKI
+    directory: https://wiki.imciel.com
+    icon: fa-book
   - page: about
     directory: about/
     icon: fa-user
