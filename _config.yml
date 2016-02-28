@@ -46,8 +46,8 @@ links:
     url: http://www.example3.com/
 
 # Static files
-js: https://dn-cielpark.qbox.me/js
-css: https://dn-cielpark.qbox.me/css
+js: js
+css: css
 
 # Theme version
 version: 0.0.0
